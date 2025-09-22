@@ -8,7 +8,7 @@
   </a>
 </div>
 
-## How to use this image
+## Usage
 
 ### Pull image
 
@@ -50,7 +50,3 @@ Run the docker image:
 ```
 docker run -it capawesome-team/ionic-capacitor bash
 ```
-
-## Questions / Issues
-
-If you got any questions or problems using the image, please visit my [GitHub Repository](https://github.com/capawesome-team/docker-ionic-capacitor) and write an issue.
