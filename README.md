@@ -1,6 +1,12 @@
 # docker-ionic-capacitor
 
-🐳 Docker image for building Ionic apps with Capacitor. 
+🐳 Docker image for building Ionic apps with Capacitor.
+
+<div class="capawesome-z29o10a">
+  <a href="https://cloud.capawesome.io/" target="_blank">
+    <img alt="Deliver Live Updates to your Capacitor app with Capawesome Cloud" src="https://cloud.capawesome.io/assets/banners/cloud-deploy-real-time-app-updates.png?t=1" />
+  </a>
+</div>
 
 ## How to use this image
 
@@ -9,15 +15,21 @@
 Pull from GitHub Container Registry:  
 
 ```
-docker pull ghcr.io/robingenz/docker-ionic-capacitor:latest
+docker pull ghcr.io/capawesome-team/docker-ionic-capacitor:latest
 ```
 
 ### Build image
 
+Build locally:  
+
+```
+docker build -t capawesome-team/ionic-capacitor .
+```
+
 Build from GitHub:  
 
 ```
-docker build -t robingenz/ionic-capacitor https://github.com/robingenz/docker-ionic-capacitor.git#main
+docker build -t capawesome-team/ionic-capacitor https://github.com/capawesome-team/docker-ionic-capacitor.git#main
 ```
 
 Available build arguments:  
@@ -36,9 +48,9 @@ Available build arguments:
 Run the docker image:  
 
 ```
-docker run -it robingenz/ionic-capacitor bash
+docker run -it capawesome-team/ionic-capacitor bash
 ```
 
 ## Questions / Issues
 
-If you got any questions or problems using the image, please visit my [GitHub Repository](https://github.com/robingenz/docker-ionic-capacitor) and write an issue.
+If you got any questions or problems using the image, please visit my [GitHub Repository](https://github.com/capawesome-team/docker-ionic-capacitor) and write an issue.
